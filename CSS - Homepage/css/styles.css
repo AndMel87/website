@@ -1,0 +1,183 @@
+/*************TAG SELECTORS*************/
+a {
+  color: #729d39;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #36622b;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  background-color: white;
+}
+
+div {
+  background-color: white;
+}
+
+hr {
+  border: dotted #c6e377 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #729d39;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #729d39;
+}
+
+p {
+  line-height: 2;
+}
+
+/*************CLASS SELECTORS*************/
+.beard {
+  border-radius: 50%;
+  width: 15%;
+  background-color: #c6e377;
+}
+
+.book-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.butn {
+  background: #36622b;
+  background-image: -webkit-linear-gradient(top, #36622b, #729d39);
+  background-image: -moz-linear-gradient(top, #36622b, #729d39);
+  background-image: -ms-linear-gradient(top, #36622b, #729d39);
+  background-image: -o-linear-gradient(top, #36622b, #729d39);
+  background-image: linear-gradient(to bottom, #36622b, #729d39);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #c6e377;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 30px auto;
+}
+
+.butn:hover {
+  background: #729d39;
+  background-image: -webkit-linear-gradient(top, #729d39, #36622b);
+  background-image: -moz-linear-gradient(top, #729d39, #36622b);
+  background-image: -ms-linear-gradient(top, #729d39, #36622b);
+  background-image: -o-linear-gradient(top, #729d39, #36622b);
+  background-image: linear-gradient(to bottom, #729d39, #36622b);
+  text-decoration: none;
+}
+
+.coding-static {
+  position:absolute;
+  float: left;
+  margin-right: 30px;
+}
+
+.coding-static:hover {
+  opacity:0;
+}
+
+.coding-active {
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-text {
+  margin: 0 auto 60px auto;
+  width: 50%;
+}
+
+.cr {
+  font-size: 0.75rem;
+  color: #36622b;
+  padding: 20px 0;
+}
+
+.footer-link {
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #fbfad3;
+  font-family: Verdana,Geneva,sans-serif;
+  position: relative;
+  padding-top: 100px;
+  border-bottom: solid 2px #36622b;
+}
+
+.heading {
+  color: #36622b;
+  font-size: 562.5%;
+  margin: 0;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.subheading {
+  font-weight: normal;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #fbfad3;
+  padding: 50px 0 20px;
+  border-top: solid 2px #36622b;
+}
+
+.contact-me {
+  margin: 50px auto;
+}
+
+/*************ID SELECTORS*************/
+#training {
+  text-decoration: underline;
+}
+
+#top-cloud {
+  position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+#bottom-cloud {
+  position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
